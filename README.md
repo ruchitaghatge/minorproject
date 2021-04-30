@@ -1,0 +1,2 @@
+# minorproject
+teacher's eDiary
