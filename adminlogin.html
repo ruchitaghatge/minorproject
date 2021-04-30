@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blog Login Form Responsive widget Design :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<meta name="keywords" content="Blog Login Form Responsive Templates, Iphone Compatible Templates, Smartphone Compatible Templates, Ipad Compatible Templates, Flat Responsive Templates"/>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/form.css" rel='stylesheet' type='text/css' />
+<!--webfonts-->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+<!--/webfonts-->
+<script type="text/javascript" >
+ function val(usr,pass){
+   if( (usr.value == "USERNAME") || (pass.value == "Password"))
+    {
+       alert("Enter all feilds");
+       return false;
+     }
+  }
+</script>
+</head>
+<body>
+<center><img src="images/logo.JPG" width="1100"name="RVCE_New_Logo.JPG"></img></center>
+<!--start-main-->
+
+<div class="login-box">
+        <!--<div class="camera"> </div>-->
+        <h2><font color='red'>LOGIN</font></h2>
+        <form action="login_chl.php" method="POST">
+                </br></br><input type="text" class="text" value="USERNAME" name="usr" id="usr" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}zz" ></br></br>
+                <input type="password" value="Password" name="pass" id="pass" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+                </br></br>
+                <div class="btn"><input type="submit" onclick="return val(usr,pass)" value="Continue"></div>
+        </form>
+
+<div class="remember"><p>Not a Member?</p>
+                <h4> <a href="register.php">Sign up now<img src="images/arrow.png" /></a></h4>
+<br>
+<font color="blue"><a href="forgetpassword.php"> Forgotpassword</a></font>
+        </div>
+</div>
+
+
+<!--//End-login-form-->
+<!--start-copyright-->
+
+<!--//end-copyright-->
+</body>
+</html>
